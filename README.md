@@ -1,10 +1,10 @@
 # Machine Learning Application Project: Forest Type Prediction
 
-Collerboration Project with @Remussn
+Collerboration Project with [@Remussn](https://github.com/Remussn)
 
 Advanced Machine Learning. 2018 spring
 
-Dataset: https://www.kaggle.com/c/forest-cover-type-prediction
+Dataset: [Kaggle](https://www.kaggle.com/c/forest-cover-type-prediction)
 
 Models Explored
 
