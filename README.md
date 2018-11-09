@@ -1,4 +1,4 @@
-# Machine Learning Application Project: forest type prediction
+# Machine Learning Application Project: Forest Type Prediction
 
 Collerboration Project with @Remussn
 
