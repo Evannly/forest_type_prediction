@@ -1,0 +1,293 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww18220\viewh12680\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \
+1. Dataset shape\
+\
+(15120, 55)\
+Each row represent a sample. Each column is a feature, while the last column represents the cover type.\
+\
+\
+\
+2. Datatypes of the attributes (features)\
+\
+Elevation                             	int64\
+Aspect                                		int64\
+Slope                                 		int64\
+Horizontal_Distance_To_Hydrology      	int64\
+Vertical_Distance_To_Hydrology        	int64\
+Horizontal_Distance_To_Roadways       	int64\
+Hillshade_9am                         	int64\
+Hillshade_Noon                       	int64\
+Hillshade_3pm                         	int64\
+Horizontal_Distance_To_Fire_Points    	int64\
+Wilderness_Area1                      	int64\
+Wilderness_Area2                      	int64\
+Wilderness_Area3                      	int64\
+Wilderness_Area4                      	int64\
+Soil_Type1                            int64\
+Soil_Type2                            int64\
+Soil_Type3                            int64\
+Soil_Type4                            int64\
+Soil_Type5                            int64\
+Soil_Type6                            int64\
+Soil_Type7                            int64\
+Soil_Type8                            int64\
+Soil_Type9                            int64\
+Soil_Type10                           int64\
+Soil_Type11                           int64\
+Soil_Type12                           int64\
+Soil_Type13                           int64\
+Soil_Type14                           int64\
+Soil_Type15                           int64\
+Soil_Type16                           int64\
+Soil_Type17                           int64\
+Soil_Type18                           int64\
+Soil_Type19                           int64\
+Soil_Type20                           int64\
+Soil_Type21                           int64\
+Soil_Type22                           int64\
+Soil_Type23                           int64\
+Soil_Type24                           int64\
+Soil_Type25                           int64\
+Soil_Type26                           int64\
+Soil_Type27                           int64\
+Soil_Type28                           int64\
+Soil_Type29                           int64\
+Soil_Type30                           int64\
+Soil_Type31                           int64\
+Soil_Type32                           int64\
+Soil_Type33                           int64\
+Soil_Type34                           int64\
+Soil_Type35                           int64\
+Soil_Type36                           int64\
+Soil_Type37                           int64\
+Soil_Type38                           int64\
+Soil_Type39                           int64\
+Soil_Type40                           int64\
+Cover_Type                            int64\
+\
+\
+\
+3. Statistical analysis of ten features with continuous value\
+\
+          Elevation        Aspect         Slope  \\\
+count  15120.000000  15120.000000  15120.000000   \
+mean    2749.322553    156.676653     16.501587   \
+std      417.678187    110.085801      8.453927   \
+min     1863.000000      0.000000      0.000000   \
+25%     2376.000000     65.000000     10.000000   \
+50%     2752.000000    126.000000     15.000000   \
+75%     3104.000000    261.000000     22.000000   \
+max     3849.000000    360.000000     52.000000   \
+\
+       Horizontal_Distance_To_Hydrology  Vertical_Distance_To_Hydrology  \\\
+count                      15120.000000                    15120.000000   \
+mean                         227.195701                       51.076521   \
+std                          210.075296                       61.239406   \
+min                            0.000000                     -146.000000   \
+25%                           67.000000                        5.000000   \
+50%                          180.000000                       32.000000   \
+75%                          330.000000                       79.000000   \
+max                         1343.000000                      554.000000   \
+\
+       Horizontal_Distance_To_Roadways  Hillshade_9am  Hillshade_Noon  \\\
+count                     15120.000000   15120.000000    15120.000000   \
+mean                       1714.023214     212.704299      218.965608   \
+std                        1325.066358      30.561287       22.801966   \
+min                           0.000000       0.000000       99.000000   \
+25%                         764.000000     196.000000      207.000000   \
+50%                        1316.000000     220.000000      223.000000   \
+75%                        2270.000000     235.000000      235.000000   \
+max                        6890.000000     254.000000      254.000000   \
+\
+       Hillshade_3pm  Horizontal_Distance_To_Fire_Points  Wilderness_Area1  \\\
+count   15120.000000                        15120.000000      15120.000000   \
+mean      135.091997                         1511.147288          0.237897   \
+std        45.895189                         1099.936493          0.425810   \
+min         0.000000                            0.000000          0.000000   \
+25%       106.000000                          730.000000          0.000000   \
+50%       138.000000                         1256.000000          0.000000   \
+75%       167.000000                         1988.250000          0.000000   \
+max       248.000000                         6993.000000          1.000000   \
+\
+       Wilderness_Area2  Wilderness_Area3  Wilderness_Area4    Soil_Type1  \\\
+count      15120.000000      15120.000000      15120.000000  15120.000000   \
+mean           0.033003          0.419907          0.309193      0.023479   \
+std            0.178649          0.493560          0.462176      0.151424   \
+min            0.000000          0.000000          0.000000      0.000000   \
+25%            0.000000          0.000000          0.000000      0.000000   \
+50%            0.000000          0.000000          0.000000      0.000000   \
+75%            0.000000          1.000000          1.000000      0.000000   \
+max            1.000000          1.000000          1.000000      1.000000   \
+\
+         Soil_Type2    Soil_Type3    Soil_Type4    Soil_Type5    Soil_Type6  \\\
+count  15120.000000  15120.000000  15120.000000  15120.000000  15120.000000   \
+mean       0.041204      0.063624      0.055754      0.010913      0.042989   \
+std        0.198768      0.244091      0.229454      0.103896      0.202840   \
+min        0.000000      0.000000      0.000000      0.000000      0.000000   \
+25%        0.000000      0.000000      0.000000      0.000000      0.000000   \
+50%        0.000000      0.000000      0.000000      0.000000      0.000000   \
+75%        0.000000      0.000000      0.000000      0.000000      0.000000   \
+max        1.000000      1.000000      1.000000      1.000000      1.000000   \
+\
+       Soil_Type7    Soil_Type8    Soil_Type9   Soil_Type10   Soil_Type11  \\\
+count     15120.0  15120.000000  15120.000000  15120.000000  15120.000000   \
+mean          0.0      0.000066      0.000661      0.141667      0.026852   \
+std           0.0      0.008133      0.025710      0.348719      0.161656   \
+min           0.0      0.000000      0.000000      0.000000      0.000000   \
+25%           0.0      0.000000      0.000000      0.000000      0.000000   \
+50%           0.0      0.000000      0.000000      0.000000      0.000000   \
+75%           0.0      0.000000      0.000000      0.000000      0.000000   \
+max           0.0      1.000000      1.000000      1.000000      1.000000   \
+\
+        Soil_Type12   Soil_Type13   Soil_Type14  Soil_Type15   Soil_Type16  \\\
+count  15120.000000  15120.000000  15120.000000      15120.0  15120.000000   \
+mean       0.015013      0.031481      0.011177          0.0      0.007540   \
+std        0.121609      0.174621      0.105133          0.0      0.086506   \
+min        0.000000      0.000000      0.000000          0.0      0.000000   \
+25%        0.000000      0.000000      0.000000          0.0      0.000000   \
+50%        0.000000      0.000000      0.000000          0.0      0.000000   \
+75%        0.000000      0.000000      0.000000          0.0      0.000000   \
+max        1.000000      1.000000      1.000000          0.0      1.000000   \
+\
+        Soil_Type17   Soil_Type18   Soil_Type19   Soil_Type20   Soil_Type21  \\\
+count  15120.000000  15120.000000  15120.000000  15120.000000  15120.000000   \
+mean       0.040476      0.003968      0.003042      0.009193      0.001058   \
+std        0.197080      0.062871      0.055075      0.095442      0.032514   \
+min        0.000000      0.000000      0.000000      0.000000      0.000000   \
+25%        0.000000      0.000000      0.000000      0.000000      0.000000   \
+50%        0.000000      0.000000      0.000000      0.000000      0.000000   \
+75%        0.000000      0.000000      0.000000      0.000000      0.000000   \
+max        1.000000      1.000000      1.000000      1.000000      1.000000   \
+\
+        Soil_Type22   Soil_Type23   Soil_Type24   Soil_Type25   Soil_Type26  \\\
+count  15120.000000  15120.000000  15120.000000  15120.000000  15120.000000   \
+mean       0.022817      0.050066      0.016997      0.000066      0.003571   \
+std        0.149326      0.218089      0.129265      0.008133      0.059657   \
+min        0.000000      0.000000      0.000000      0.000000      0.000000   \
+25%        0.000000      0.000000      0.000000      0.000000      0.000000   \
+50%        0.000000      0.000000      0.000000      0.000000      0.000000   \
+75%        0.000000      0.000000      0.000000      0.000000      0.000000   \
+max        1.000000      1.000000      1.000000      1.000000      1.000000   \
+\
+        Soil_Type27   Soil_Type28   Soil_Type29   Soil_Type30   Soil_Type31  \\\
+count  15120.000000  15120.000000  15120.000000  15120.000000  15120.000000   \
+mean       0.000992      0.000595      0.085384      0.047950      0.021958   \
+std        0.031482      0.024391      0.279461      0.213667      0.146550   \
+min        0.000000      0.000000      0.000000      0.000000      0.000000   \
+25%        0.000000      0.000000      0.000000      0.000000      0.000000   \
+50%        0.000000      0.000000      0.000000      0.000000      0.000000   \
+75%        0.000000      0.000000      0.000000      0.000000      0.000000   \
+max        1.000000      1.000000      1.000000      1.000000      1.000000   \
+\
+        Soil_Type32   Soil_Type33   Soil_Type34   Soil_Type35   Soil_Type36  \\\
+count  15120.000000  15120.000000  15120.000000  15120.000000  15120.000000   \
+mean       0.045635      0.040741      0.001455      0.006746      0.000661   \
+std        0.208699      0.197696      0.038118      0.081859      0.025710   \
+min        0.000000      0.000000      0.000000      0.000000      0.000000   \
+25%        0.000000      0.000000      0.000000      0.000000      0.000000   \
+50%        0.000000      0.000000      0.000000      0.000000      0.000000   \
+75%        0.000000      0.000000      0.000000      0.000000      0.000000   \
+max        1.000000      1.000000      1.000000      1.000000      1.000000   \
+\
+        Soil_Type37   Soil_Type38   Soil_Type39   Soil_Type40    Cover_Type  \
+count  15120.000000  15120.000000  15120.000000  15120.000000  15120.000000  \
+mean       0.002249      0.048148      0.043452      0.030357      4.000000  \
+std        0.047368      0.214086      0.203880      0.171574      2.000066  \
+min        0.000000      0.000000      0.000000      0.000000      1.000000  \
+25%        0.000000      0.000000      0.000000      0.000000      2.000000  \
+50%        0.000000      0.000000      0.000000      0.000000      4.000000  \
+75%        0.000000      0.000000      0.000000      0.000000      6.000000  \
+max        1.000000      1.000000      1.000000      1.000000      7.000000  \
+\
+\
+\
+4. Skewness\
+\
+Elevation                               0.075640\
+Aspect                                  0.450935\
+Slope                                   0.523658\
+Horizontal_Distance_To_Hydrology        1.488052\
+Vertical_Distance_To_Hydrology          1.537776\
+Horizontal_Distance_To_Roadways         1.247811\
+Hillshade_9am                          -1.093681\
+Hillshade_Noon                         -0.953232\
+Hillshade_3pm                          -0.340827\
+Horizontal_Distance_To_Fire_Points      1.617099\
+Wilderness_Area1                        1.231244\
+Wilderness_Area2                        5.228781\
+Wilderness_Area3                        0.324594\
+Wilderness_Area4                        0.825798\
+Soil_Type1                              6.294716\
+Soil_Type2                              4.617019\
+Soil_Type3                              3.575995\
+Soil_Type4                              3.872721\
+Soil_Type5                              9.416209\
+Soil_Type6                              4.506716\
+Soil_Type7                              0.000000\
+Soil_Type8                            122.963409\
+Soil_Type9                             38.849712\
+Soil_Type10                             2.055410\
+Soil_Type11                             5.854551\
+Soil_Type12                             7.977205\
+Soil_Type13                             5.366836\
+Soil_Type14                             9.300318\
+Soil_Type15                             0.000000\
+Soil_Type16                            11.387050\
+Soil_Type17                             4.663945\
+Soil_Type18                            15.781426\
+Soil_Type19                            18.048915\
+Soil_Type20                            10.286265\
+Soil_Type21                            30.695081\
+Soil_Type22                             6.391991\
+Soil_Type23                             4.126701\
+Soil_Type24                             7.474026\
+Soil_Type25                           122.963409\
+Soil_Type26                            16.645076\
+Soil_Type27                            31.704896\
+Soil_Type28                            40.955261\
+Soil_Type29                             2.967651\
+Soil_Type30                             4.231913\
+Soil_Type31                             6.524804\
+Soil_Type32                             4.354839\
+Soil_Type33                             4.646742\
+Soil_Type34                            26.161230\
+Soil_Type35                            12.052838\
+Soil_Type36                            38.849712\
+Soil_Type37                            21.018939\
+Soil_Type38                             4.221771\
+Soil_Type39                             4.479186\
+Soil_Type40                             5.475256\
+Cover_Type                              0.000000\
+\
+\
+\
+5. Class distribution\
+\
+Cover_Type\
+1    2160\
+2    2160\
+3    2160\
+4    2160\
+5    2160\
+6    2160\
+7    2160\
+\
+\
+\
+6. Correlation (absolute correlation value >= 0.5)\
+\
+Hillshade_9am and Hillshade_3pm = -0.78\
+Horizontal_Distance_To_Hydrology and Vertical_Distance_To_Hydrology = 0.65\
+Aspect and Hillshade_3pm = 0.64\
+Hillshade_Noon and Hillshade_3pm = 0.61\
+Slope and Hillshade_Noon = -0.61\
+Aspect and Hillshade_9am = -0.59\
+Elevation and Horizontal_Distance_To_Roadways = 0.58\
+\
+}
